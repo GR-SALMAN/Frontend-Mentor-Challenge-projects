@@ -1,0 +1,573 @@
+
+    
+  @media  screen and (min-width: 500px) {
+    
+    body{
+        margin: auto;
+        padding: auto;
+        font-family: 'Mulish', sans-serif;
+        font-family: 'Roboto';
+        background-color: #f0f1f6;
+        font-size: 18px;
+    }
+    
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 1440px;
+    }
+    
+    header{
+        margin: auto;
+        width: 1440px;
+        display: flex;
+        height: 60px;
+        align-items: center;
+        justify-content: baseline;
+        position: static;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: center;
+    }
+    
+    li{
+        padding: 12px;
+    }
+    
+    .loging{
+        display: flex;
+        align-items: center;
+    }
+    
+    .loging, .signup{
+        padding: 15px;
+    }
+    
+    
+    nav{
+        margin: auto;
+        width: 1350px;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .first-half, .Login{
+        color: hsl(0, 0%, 75%);
+        font-weight: bold;
+    }
+    
+    .button1{
+        color: white;
+        padding: 12px;
+        background-color: rgba(43,209,209,255);
+        border: none;
+        border-radius: 25px;
+        width: 115%;
+    }
+    
+    .logo1{
+        padding-top: 3%;
+    }
+    
+    .logo1, .button1,.Login, li:hover{
+        cursor: pointer;
+    }
+    
+    .first-header{
+        font-size: 100px;
+        font-weight:bolder;
+        max-width: 55%;
+        margin-top: 200px;
+        color: #35323b;
+    }
+    
+    .first-para{
+        color: #a4a3ac;
+        max-width: 40%;
+        font-size: 150%;
+        margin-top: -70px;
+    }
+    
+    .get-started:hover, .button1:hover{
+        box-shadow: 5px 9px 5px 0px rgba(166,160,160,0.75);
+        -webkit-box-shadow: 5px 9px 5px 0px rgba(166,160,160,0.75);
+        -moz-box-shadow: 5px 9px 5px 0px rgba(166,160,160,0.75);
+    cursor: pointer;
+    }
+    
+    .hero1 {
+        position: absolute;
+        margin-top: -140px;
+        margin-left: 860px;
+        width: 45%;
+    }
+    
+    .link-container {
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        margin-top: 75px;
+        align-items: center;
+        width: 900px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: #3a3053;
+        background-image: url(./images/bg-shorten-desktop.svg);
+        background-position: center;
+    }
+    
+    .input, .shorten-button{
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .shorten-button{
+        background-color:#3bcdcf ;
+        color: white;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 12px;
+    }
+    .shorten-button:hover{
+        cursor: pointer;
+        background-color: #329696;
+    }
+    .input{
+        width: 70%;
+    }
+    
+    .input-contain{
+        padding-top: 24px;
+    }
+    
+    .advance{
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        max-width: 39%;
+        margin-top: 120px;
+        font-size: 120%;
+    }
+    
+    .para2{
+        color: #a4a3ac;
+    }
+    
+    .header2{
+        color: #35323b;
+        font-weight: bolder;
+    }
+    
+    .feature-container{
+        margin: auto;
+        padding: auto;
+        display: flex;
+        width: 1100px;
+        height: auto;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    
+    .brandimg, .detailedimg, .fullyimg{
+        background-color: rgb(58, 57, 85);
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 25px;
+        margin-left: 15px;
+        margin-top: -60px;
+    }
+    
+    .fully, .detailed, .brand{
+        width:290px;
+        height: 250px;
+        background-color: #fff;
+        border-radius: 5px;
+        padding:25px;
+    }
+    
+    .detailed:before{
+        content: " ";
+        display: block;
+        width: 40px;
+        height: 12px;
+        background-color: #3bcdcf;
+        margin-top: 100px;
+        margin-left: -64px;
+        position: absolute;
+    }
+    
+    .detailed:after{
+        content: " ";
+        display: block;
+        width: 40px;
+        height: 12px;
+        background-color: #3bcdcf;
+        margin-top: -125px;
+        margin-left: 315px;
+        position: absolute;
+    }
+    
+    .detailed{
+        margin-top: 50px;
+    }
+    
+    .fully{
+        margin-top: 100px;
+    }
+    
+    .fully p, .detailed p, .brand p{
+        color: #a4a3ac;
+    } 
+    
+    .fully:hover, .detailed:hover, .brand:hover{
+        box-shadow: 11px 10px 5px -3px rgba(0,0,0,0.26);
+        -webkit-box-shadow: 11px 10px 5px -3px rgba(0,0,0,0.26);
+        -moz-box-shadow: 11px 10px 5px -3px rgba(0,0,0,0.26);
+        cursor: pointer;
+    }
+    
+    .boost{
+        margin: auto;
+        padding: auto;
+        margin-top: 100px;
+        text-align: center;
+        align-items: center;
+        background-color: #3a3053;
+        width: 100%;
+        height: 250px;
+        background-image: url(./images/bg-boost-desktop.svg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .boost-header{
+        font-size: 250%;
+        font-weight: bolder;
+        color: #fff;
+        padding-top: 45px;
+    }
+    
+    .get-started{
+        color: white;
+        background-color: #32d2d2;
+        border: none;
+        padding: 20px;
+        font-size: 150%;
+        border-radius: 55px;
+        width: 220px;
+        font-weight: bolder;
+    }
+    
+    footer {
+        width: 100%;
+        background-color: hsl(260, 8%, 14%);
+    }
+    
+    .logo3{
+        color: rgb(255, 255, 255);
+        border-color: #fff;
+        font-size: 35px;
+        font-weight: bold;
+        padding-right: 200px;
+    }
+    
+    .footer-container{
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 1440px;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 80px;
+        background-color: hsl(260, 8%, 14%);
+        background-size: 100%;
+    }
+    
+    .footer-feature{
+        display: flex;
+    }
+    
+    .footer-feature ul{
+        list-style-type: none;
+    }
+    
+    .social-icon{
+        display: flex;
+    }
+
+    .mini{
+        color:#a4a3ac;
+    }
+
+    .topnav{
+        display: none;
+    }
+
+
+  }
+
+  @media screen and (max-width: 499px) {
+    body{
+        background-color: #f0f1f6;
+        text-align: center;
+        font-family: 'poppins';
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        display:none;
+    }
+
+    .logoM{
+        padding: 15px;
+        margin-left: -180px;
+    }
+    
+    .menu{
+        display: flex;
+        list-style-type: none;
+    }
+
+    /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    background-color: #3a3053;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    color: #35323b;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .button1{
+    color: white;
+    padding: 12px;
+    background-color: rgba(43,209,209,255);
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 200px;}
+
+    h1.first-header {
+        max-width: 98%;
+        font-weight: bolder;
+    }
+
+    p{
+        color: #a4a3ac;
+    }
+
+    .get-started {
+        color: white;
+        background-color: rgb(50, 210, 210);
+        border: none;
+        padding: 20px;
+        font-size: 120%;
+        border-radius: 55px;
+        width: 150px;
+        font-weight: bolder;
+    }
+
+    img.hero1 {
+        width: 135%;
+        margin-left: 20px;
+    }
+
+    .link-container {
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        margin-top: 75px;
+        align-items: center;
+        width: 350px;
+        height: 125px;
+        border-radius: 10px;
+        background-color: #3a3053;
+        background-image: url(./images/bg-shorten-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-evenly;
+        background-size: cover;
+    }
+    
+    .input, .shorten-button {
+        width: 280px;
+        height: 40px;
+        border-radius: 7px;
+        border: none;
+        padding: 5px;
+        margin: 4px;
+    }
+    
+    .shorten-button{
+        background-color:#3bcdcf ;
+        color: white;
+        font-weight: bold;
+        width: 290px;
+    }
+    .shorten-button:hover{
+        cursor: pointer;
+        background-color: #329696;
+    }
+
+    
+    .input-contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    
+    .advance {
+        margin-top: 60px;
+        max-width: 81%;
+        margin-left: 43px;
+    }
+
+    .feature-container{
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        height: 78rem;
+        justify-content: space-evenly;
+        margin-top: 120px;
+    }
+    
+    .brandimg, .detailedimg, .fullyimg{
+        background-color: rgb(58, 57, 85);
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 25px;
+        margin-left: 100px;
+        margin-top: -60px;
+    }
+    
+    .fully, .detailed, .brand{
+        width:290px;
+        height: 250px;
+        background-color: #fff;
+        border-radius: 5px;
+        padding:25px;
+    }
+    
+    .detailed:before{
+        content: " ";
+        display: block;
+        width: 12px;
+        height: 51px;
+        background-color: #3bcdcf;
+        margin-top: -111px;
+        margin-left: 143px;
+        position: absolute;
+    }
+    
+    .detailed:after{
+        content: " ";
+        display: block;
+        width: 12px;
+        height: 51px;
+        background-color: #3bcdcf;
+        margin-top: 20px;
+        margin-left: 145px;
+        position: absolute;
+    }
+    
+    .boost{
+        background-color: #3a3053;
+        background-image: url(./images/bg-boost-mobile.svg);
+        color: #fff;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 9rem;
+    }
+
+    .boost-header{
+        font-size: 150%;
+    }
+    
+    .get-started{
+        font-size: 100%;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        background-color: #35323b;
+    }  
+
+    ul{
+        list-style-type: none;
+    }
+
+    .logo3{
+        font-weight: bolder;
+        font-size: 170%;
+        padding-top: 50px;
+    }
+
+    .social-icon{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mini{
+        padding: 12px;
+    }
+
+    .f-feature, .f-resources, .f-company, .social-icon{
+        margin-left: -36px;
+    }
+}
